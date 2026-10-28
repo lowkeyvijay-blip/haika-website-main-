@@ -7,8 +7,9 @@
     "dev": "concurrently -k -n api,web -c yellow,cyan \"npm run dev:api\" \"npm run dev:web\"",
     "dev:api": "tsx watch src/server/index.ts",
     "dev:web": "vite --config dashboard/vite.config.ts",
-    "build": "tsc --noEmit",
+    "build": "npm run build:dashboard",
     "build:dashboard": "tsc -p dashboard/tsconfig.json && vite build --config dashboard/vite.config.ts",
+    "build:check": "tsc --noEmit",
     "test": "vitest run",
     "seed": "tsx src/store/seed-cli.ts",
     "reset": "tsx src/store/seed-cli.ts --reset"
