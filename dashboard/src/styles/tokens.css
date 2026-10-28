@@ -1,0 +1,111 @@
+:root {
+  color-scheme: light;
+  font-family: var(--font-ui);
+  color: var(--color-ink);
+  background: var(--color-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --color-bg: #faf6f0;
+  --color-surface: #ffffff;
+  --color-surface-sand: #f1eadf;
+  --color-surface-soft: #f7f1e8;
+  --color-forest: #1f3a32;
+  --color-forest-soft: #2b4a40;
+  --color-on-forest: #faf6f0;
+  --color-on-forest-muted: #c6d2cb;
+  --color-on-forest-soft: #9db2a8;
+  --color-ivory: #faf6f0;
+  --color-terracotta: #c2603f;
+  --color-terracotta-hover: #a94f31;
+  --color-terracotta-strong: #b45534;
+  --color-brass: #b8955a;
+  --color-brass-strong: #806024;
+  --color-ink: #2a2623;
+  --color-ink-soft: #4a433e;
+  --color-muted: #7a716a;
+  --color-muted-strong: #6f665f;
+  --color-border: #e7ded1;
+  --color-border-strong: #d7c9b8;
+  --color-focus: #c2603f;
+  --color-focus-ring: rgb(194 96 63 / 22%);
+
+  --status-new-bg: #e6f0f6;
+  --status-new-text: #315e73;
+  --status-qualified-bg: #e8efe2;
+  --status-qualified-text: #48603b;
+  --status-contacted-bg: #f6ead3;
+  --status-contacted-text: #7a5520;
+  --status-consultation-bg: #eee7f1;
+  --status-consultation-text: #644b6d;
+  --status-proposal-bg: #f3e9d7;
+  --status-proposal-text: #745a2b;
+  --status-won-bg: #e3efe5;
+  --status-won-text: #3f6146;
+  --status-lost-bg: #ece9e4;
+  --status-lost-text: #625d56;
+  --status-overdue-bg: #f6e3e2;
+  --status-overdue-text: #8b3f3b;
+
+  --font-display:
+    "Fraunces", "Cormorant Garamond", "Iowan Old Style", Georgia,
+    "Times New Roman", serif;
+  --font-ui:
+    "DM Sans", "Inter", "Aptos", "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, sans-serif;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.75rem;
+  --text-base: 0.875rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.875rem;
+  --text-3xl: 2.75rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --radius-control: 12px;
+  --radius-card: 20px;
+  --radius-panel: 28px;
+  --radius-pill: 999px;
+
+  --shadow-card:
+    0 1px 2px rgb(74 54 40 / 5%),
+    0 18px 44px -32px rgb(74 54 40 / 36%);
+  --shadow-raised:
+    0 2px 4px rgb(74 54 40 / 6%),
+    0 24px 58px -28px rgb(74 54 40 / 32%);
+  --shadow-modal:
+    0 28px 90px -24px rgb(31 58 50 / 38%),
+    0 8px 24px -12px rgb(74 54 40 / 20%);
+  --shadow-focus: 0 0 0 3px var(--color-focus-ring);
+
+  --transition-fast: 150ms ease;
+  --transition-base: 180ms ease;
+
+  --paper: var(--color-bg);
+  --surface: var(--color-surface);
+  --surface-raised: var(--color-surface);
+  --surface-muted: var(--color-surface-sand);
+  --ink: var(--color-ink);
+  --ink-soft: var(--color-ink-soft);
+  --muted: var(--color-muted-strong);
+  --line: var(--color-border);
+  --line-strong: var(--color-border-strong);
+  --olive: var(--color-forest);
+  --olive-soft: var(--color-forest-soft);
+  --clay: var(--color-terracotta-strong);
+  --clay-soft: #f7e7df;
+  --sage: #5c7662;
+  --serif: var(--font-display);
+}
